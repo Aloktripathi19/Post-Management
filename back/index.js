@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 let mongoose = require("mongoose")
 let express = require("express")
 let cors = require("cors")
